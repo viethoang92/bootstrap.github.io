@@ -1,7 +1,64 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#">Bootstrap</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section I <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#warrior">The Warrior</a></li>
+                <li><a href="#rogue">The Rogue</a></li>
+                <li><a href="#mage">The Mage</a></li>
+              </ul>
+            </li>
+            <li><a href="#sectionII">Section II</a></li>
+            <li><a href="#sectionIII">Section III</a></li>
+            <li><a href="#sectionIV">Section IV</a></li>
+            <li><a href="#sectionV">Section V</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div w3-include-html="html/sectionI.html"></div>
+    <div w3-include-html="html/sectionII.html"></div>
+    <div w3-include-html="html/sectionIII.html"></div>
+    <div w3-include-html="html/sectionIV.html"></div>
+    <div w3-include-html="html/sectionV.html"></div>
+  </div>
+
 </body>
+
 </html>
