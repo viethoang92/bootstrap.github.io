@@ -2,8 +2,14 @@ body {
     position: relative;
     width:100%;
 }
+h1{
+    margin:0;
+    padding:70px 15px 30px;
+    background-color: black;
+    color:white;
+}
 
-h4 {
+h3, h4 {
     padding-top:50px;
 }
 
@@ -18,8 +24,8 @@ p {
     width:100%;
 }
 
-#sectionI { padding-top:50px;background-color: #1E88E5;}
-#sectionII { padding-top:50px;background-color: #673ab7;}
-#sectionIII { padding-top:50px;background-color: #ff9800;}
-#sectionIV { padding-top:50px;background-color: #00bcd4;}
-#sectionV { padding-top:50px;background-color: #009688;}
+#sectionI { background-color: #1E88E5;}
+#sectionII { background-color: #673ab7;}
+#sectionIII { background-color: #ff9800;}
+#sectionIV { background-color: #00bcd4;}
+#sectionV { background-color: #009688;}
